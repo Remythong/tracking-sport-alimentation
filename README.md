@@ -110,6 +110,8 @@ Le projet comprend plusieurs dashboards thématiques :
 
 ### 🔄 Normalisation & limites actuelles
 
+La partie visuelle est adaptée au format mobile
+
 La structure actuelle des données est volontairement **large (format “wide”)** et agrégée par date afin de faciliter la saisie manuelle.
 
 Cette approche présente des limites pour :
