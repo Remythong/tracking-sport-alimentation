@@ -1,7 +1,7 @@
 # tracking-sport-alimentation
 Projet de suivi et d’analyse de l’activité sportive et de l’alimentation (Google Sheets, dashboards)
 
-### Problématique analytique
+### 🎯 Problématique analytique
 
 Comment structurer, suivre et analyser dans le temps des données liées :
 
@@ -10,11 +10,11 @@ Comment structurer, suivre et analyser dans le temps des données liées :
 - à la consommation de compléments,
 - et à des habitudes personnalisées,
 
-afin de mesurer la régularité, la répartition, le volume, et l’atteinte d’objectifs définis.
+afin de mesurer la **régularité**, la **répartition**, le **volume**, et l’**atteinte d’objectifs définis**.
 
 ---
 
-### Données utilisées
+### 📊 Données utilisées
 
 ### Dimensions
 
@@ -31,36 +31,36 @@ afin de mesurer la régularité, la répartition, le volume, et l’atteinte d�
 - Indicateurs de suivi d’habitudes
 - Niveaux de stock de compléments
 
-Les données sont saisies à une granularité journalière.
+Les données sont saisies à une **granularité journalière**.
 
 ---
 
-### Structure des données (Google Sheets)
+### 🗂️ Structure des données (Google Sheets)
 
 Le projet repose sur plusieurs tables fonctionnelles :
 
-- Saisie
+- **Saisie**
     
     Table principale de saisie journalière, sous forme agrégée, permettant un suivi rapide des activités, apports et habitudes.
     
-- Saisie_Charge
+- **Saisie_Charge**
     
     Table dédiée au suivi des charges d’exercices, également agrégée par date.
     
-- Stock_Compléments
+- **Stock_Compléments**
     
     Tables de saisie indépendantes (réassort, pertes, taux protéiques), alimentant des calculs d’agrégation pour le suivi des niveaux de stock.
     
-- SETUP
+- **SETUP**
     
     Table de paramétrage des objectifs (sport, nutrition, habitudes), utilisée comme référence dans les dashboards.
     
 
-La structure actuelle est optimisée pour la saisie utilisateur et la lisibilité, dans un environnement Google Sheets.
+👉 La structure actuelle est **optimisée pour la saisie utilisateur et la lisibilité**, dans un environnement Google Sheets.
 
 ---
 
-### Indicateurs clés & dashboards
+### 📈 Indicateurs clés & dashboards
 
 Le projet comprend plusieurs dashboards thématiques :
 
@@ -91,7 +91,7 @@ Le projet comprend plusieurs dashboards thématiques :
 
 ---
 
-### Valeur ajoutée analytique
+### 💡 Valeur ajoutée analytique
 
 - Vision globale et temporelle avec filtres interactifs
 - Mise en perspective des résultats par rapport à des objectifs définis
@@ -101,14 +101,14 @@ Le projet comprend plusieurs dashboards thématiques :
 
 ---
 
-### Outils utilisés
+### ⚙️ Outils utilisés
 
 - Google Sheets (saisie, transformations, dashboards)
 - Power BI (à venir)
 
 ---
 
-### Normalisation & limites actuelles
+### 🔄 Normalisation & limites actuelles
 
 La structure actuelle des données est volontairement **large (format “wide”)** et agrégée par date afin de faciliter la saisie manuelle.
 
@@ -118,7 +118,7 @@ Cette approche présente des limites pour :
 - la scalabilité,
 - et la modélisation analytique avancée.
 
-Une version ultérieure du projet prévoit :
+👉 Une version ultérieure du projet prévoit :
 
 - une **normalisation des données (format long)**,
 - une séparation claire entre tables de faits et dimensions,
@@ -126,11 +126,11 @@ Une version ultérieure du projet prévoit :
 
 ---
 
-### État du projet & roadmap
+### 🧭 État du projet & roadmap
 
-- Version actuelle : Google Sheets – Suivi & dashboards fonctionnels
-- Actions intermédiaires : Rectification des disfonctionnements rencontrés et améliorations continues
-- Prochaines étapes :
+- ✅ Version actuelle : Google Sheets – Suivi & dashboards fonctionnels
+- 🔨​ Actions intermédiaires : Rectification des disfonctionnements rencontrés et améliorations continues
+- 🔜 Prochaines étapes :
     - Modélisation normalisée des données
     - Implémentation sous Power BI
     - Automatisation partielle de la collecte
@@ -138,6 +138,6 @@ Une version ultérieure du projet prévoit :
 
 ---
 
-## Auteur
+## 👤 Auteur
 
 Projet personnel réalisé par **Rémy Thong**, dans une démarche de montée en compétences en data analytics et dashboarding.
