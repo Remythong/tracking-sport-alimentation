@@ -129,7 +129,7 @@ Cette approche présente des limites pour :
 ### 🧭 État du projet & roadmap
 
 - ✅ Version actuelle : Google Sheets – Suivi & dashboards fonctionnels
-- 🔨​ Actions intermédiaires : Rectification des disfonctionnements rencontrés et améliorations continues
+- 🔨​ Actions intermédiaires : Rectification des disfonctionnements rencontrés et amélioration continue
 - 🔜 Prochaines étapes :
     - Modélisation normalisée des données
     - Implémentation sous Power BI
